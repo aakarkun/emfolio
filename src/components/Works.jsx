@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, reactjs } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -38,7 +38,7 @@ const ProjectCard = ({
                 }}
               >
                 <img
-                  src={github}
+                  src={reactjs}
                   alt="github"
                   className="w-1/2 h-1/2 object-contain"
                 />
@@ -51,7 +51,9 @@ const ProjectCard = ({
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
             <div className="mt-4 flex flex-wrap gap-2">
               {tags.map((tag) => (
-                <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                  #{tag.name}
+                </p>
               ))}
             </div>
           </div>
@@ -76,9 +78,9 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          live-demo links or demo visuals. It reflects my ability to solve
+          complex problems, work with different technologies, and manage
+          projects effectively.
         </motion.p>
       </div>
 

@@ -16,6 +16,9 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import angular from "./tech/angular.png";
+import ionic from "./tech/ionic.png";
+import ngrx from "./tech/ngrx.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -25,10 +28,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import alirahealth from "./company/alirahealth.jpeg";
+import bepatient from "./company/bepatient.jpeg";
+import drclean from "./company/drclean.png";
+import signarama from "./company/signarama.png";
+import percoid from "./company/percoid.jpeg";
+import unic from "./company/unic.jpeg";
+import glomeworks from "./company/glomeworks.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ayna from "./ayna.png";
+import emprompt from "./emprompt.png";
+import empresa from "./empresa.png";
 
 export {
   logo,
@@ -48,6 +61,9 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  angular,
+  ionic,
+  ngrx,
   redux,
   tailwind,
   typescript,
@@ -55,8 +71,18 @@ export {
   meta,
   shopify,
   starbucks,
+  alirahealth,
+  bepatient,
+  drclean,
+  signarama,
+  percoid,
+  unic,
+  glomeworks,
   tesla,
   carrent,
   jobit,
   tripguide,
+  ayna,
+  emprompt,
+  empresa,
 };

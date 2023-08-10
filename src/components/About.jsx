@@ -40,13 +40,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I have proficient skills in TypeScript and JavaScript, with a strong
-        background in frameworks such as React, Node.js, and Three.js. My
-        expertise allows me to swiftly grasp new concepts, and I'm adept at
-        working in close partnership with clients to craft efficient, scalable,
-        and user-centric solutions that effectively address practical
-        challenges. Let's join forces to transform your concepts into vibrant
-        realities!
+        I have proficient skills in TypeScript and JavaScript, my expertise
+        extends to React, Node.js, Angular, Ionic, NgRx, Node.js, Capacitor, iOS
+        and Android app development. On the otherside I have experience of
+        Blockchain and Web3 development ecosystem empowering me to excel in
+        diverse technological landscapes. I swiftly embrace novel concepts,
+        collaborating closely with clients to architect efficient, scalable,
+        user-centric solutions. Let's collaborate to bring your visions to life
+        with vibrancy and innovation!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

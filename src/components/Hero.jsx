@@ -1,9 +1,19 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Typed from "react-typed";
 
 const Hero = () => {
+  const colors = ["purple", "blue", "green", "pink"];
+  const [colorIndex, setColorIndex] = useState(0);
+
+  const handleChangeText = () => {
+    const randomIndex = Math.floor(Math.random() * colors.length); // Generate a random index from 0 to colors length
+    setColorIndex(randomIndex);
+  };
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,10 +26,22 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Kush</span>
+            Hi, I'm <span className="purple-text-gradient">Kush</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 tex-white-100`}>
-            Developer | Illustrator | Designer | Blockchain | Web3
+            Developer | Illustrator | Designer |&nbsp;
+            <br className="block sm:hidden" />
+            <span className={`${colors[colorIndex]}-text-gradient`}>
+              <Typed
+                strings={["Blockchain", "Web3"]}
+                typeSpeed={150}
+                loop={true}
+                smartBackspace={true}
+                backDelay={1}
+                startDelay={1000}
+                onStringTyped={handleChangeText}
+              ></Typed>
+            </span>
           </p>
         </div>
       </div>
@@ -35,7 +57,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: 'loop'
+                repeatType: "loop",
               }}
               className="w-2 h-2 rounded-full bg-secondary mb-1"
             />

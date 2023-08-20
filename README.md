@@ -69,6 +69,6 @@ This project is licensed under the **MIT License**.
 
 📧 **Contact:** **[info@empresaoriginal.com](mailto:your.email@example.com)**
 
-Follow me on [LinkedIn](https://twitter.com/kusgautamdoteth) for updates and inspiration! ✨
+Follow me on [LinkedIn](https://www.linkedin.com/in/kusgautam/) for updates and inspiration! ✨
 
 Credit for this project [JSMastery](https://www.jsmastery.pro/)
